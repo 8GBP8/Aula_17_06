@@ -9,7 +9,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int num = 0;
+    int num1 = 0;
+    int num2 = 0;
+    int num3 = 0;
+    int num4 = 0;
     int numtot = 0;
     int tot = 0;
 
@@ -17,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafepre = findViewById(R.id.numcafepre);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num >= 0) {
-            num++;
+        if(num1 >= 0) {
+            num1++;
             numtot++;
-            numcafepre.setText("  " + num + "  ");
+            numcafepre.setText("  " + num1 + "  ");
             tot += 5;
             total.setText("Preço total: R$" + tot);
             if(numtot == 1) {
@@ -41,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafepre = findViewById(R.id.numcafepre);
         TextView total = findViewById(R.id.total);
         TextView pedido =findViewById(R.id.pedido);
-        if(num != 0) {
-            num--;
+        if(num1 != 0) {
+            num1--;
             numtot--;
-            numcafepre.setText("  " + num + "  ");
+            numcafepre.setText("  " + num1 + "  ");
             tot -= 5;
             total.setText("Preço total: R$"+ tot);
             if(numtot == 1) {
@@ -65,10 +68,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafelei = findViewById(R.id.numcafelei);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num >= 0) {
-            num++;
+        if(num2 >= 0) {
+            num2++;
             numtot++;
-            numcafelei.setText("  " + num + "  ");
+            numcafelei.setText("  " + num2 + "  ");
             tot += 8;
             total.setText("Preço total: R$" + tot);
             if(numtot == 1) {
@@ -89,10 +92,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafelei = findViewById(R.id.numcafelei);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num != 0) {
-            num--;
+        if(num2 != 0) {
+            num2--;
             numtot--;
-            numcafelei.setText("  " + num + "  ");
+            numcafelei.setText("  " + num2 + "  ");
             tot -= 8;
             total.setText("Preço total: R$"+ tot);
             if(numtot == 1) {
@@ -113,10 +116,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafeexp = findViewById(R.id.numcafeexp);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num >= 0) {
-            num++;
+        if(num3 >= 0) {
+            num3++;
             numtot++;
-            numcafeexp.setText("  " + num + "  ");
+            numcafeexp.setText("  " + num3 + "  ");
             tot += 8;
             total.setText("Preço total: R$" + tot);
             if(numtot == 1) {
@@ -137,10 +140,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafeexp = findViewById(R.id.numcafeexp);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num != 0) {
-            num--;
+        if(num3 != 0) {
+            num3--;
             numtot--;
-            numcafeexp.setText("  " + num + "  ");
+            numcafeexp.setText("  " + num3 + "  ");
             tot -= 8;
             total.setText("Preço total: R$"+ tot);
             if(numtot == 1) {
@@ -162,10 +165,10 @@ public class MainActivity extends AppCompatActivity {
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
 
-        if(num >= 0) {
-            num++;
+        if(num4 >= 0) {
+            num4++;
             numtot++;
-            numcafecap.setText("  " + num + "  ");
+            numcafecap.setText("  " + num4 + "  ");
             tot += 15;
             total.setText("Preço total: R$" + tot);
             if(numtot == 1) {
@@ -186,10 +189,10 @@ public class MainActivity extends AppCompatActivity {
         TextView numcafecap = findViewById(R.id.numcafecap);
         TextView total = findViewById(R.id.total);
         TextView pedido = findViewById(R.id.pedido);
-        if(num != 0) {
-            num--;
+        if(num4 != 0) {
+            num4--;
             numtot--;
-            numcafecap.setText("  " + num + "  ");
+            numcafecap.setText("  " + num4 + "  ");
             tot -= 15;
             total.setText("Preço total: R$"+ tot);
             if(numtot == 1) {
